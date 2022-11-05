@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+body{
+  font-family: 'Satisfy', cursive;
+
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(166, 183, 241, 0.8),
+    hsla(247, 5%, 62%, 0.8)
+    
+  )!important;
+}
